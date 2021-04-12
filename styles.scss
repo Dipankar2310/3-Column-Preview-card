@@ -1,0 +1,141 @@
+$Brightorange: hsl(31, 77%, 52%);
+$Darkcyan: hsl(184, 100%, 22%);
+$Verydarkcyan: hsl(179, 100%, 13%);
+$Transparentwhiteparagraphs: hsla(0, 0%, 100%, 0.75);
+$Verylightgraybackgroundheadingsbuttons : hsl(0, 0%, 95%);
+
+
+body{
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 15px;
+    background-color: $Verylightgraybackgroundheadingsbuttons ;
+}
+span{color:$Transparentwhiteparagraphs;
+    font-family: 'Big Shoulders Display', cursive;
+    display: block;
+    font-size: 30px;
+}
+main{display: flex;
+    flex-direction: row;
+    max-width: 1440px;
+    margin-top: 30%;
+    margin-bottom: 30%;
+    margin-left: 20%;
+    margin-right: 20%;
+    @media(max-width: 720px) {
+        display: flex;
+        flex-direction: column;
+           
+       }
+}
+div{
+    
+    padding: 40px 40px;
+    display: flex;
+    flex-direction: column;
+   
+    img{
+        height: 30px;
+        width: 50px;
+        padding:20px 0px 30px 0px;
+    }
+   
+}
+#first{
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    background-color:$Brightorange ;
+    button{
+        
+        font-family: 'Lexend Deca', sans-serif;
+        padding: 10px 10px;
+        width: 60%;
+        background-color: $Verylightgraybackgroundheadingsbuttons;
+        border: 2px solid $Verylightgraybackgroundheadingsbuttons ;
+        color:$Brightorange ;
+        margin-top:60px;
+        border-radius: 30px;
+        outline: none;
+        
+    }
+    button:hover{
+        
+        background-color:inherit;
+        color:$Verylightgraybackgroundheadingsbuttons;
+        outline: none;
+        cursor: pointer;
+    }
+    @media(max-width: 720px) {
+        border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 0px;
+           
+       }
+}
+#second{
+    background-color: $Darkcyan;
+    button{
+        
+        font-family: 'Lexend Deca', sans-serif;
+        padding: 10px 10px;
+        width: 60%;
+        background-color: $Verylightgraybackgroundheadingsbuttons;
+        border: 2px solid $Verylightgraybackgroundheadingsbuttons ;
+        color:$Darkcyan;
+        margin-top:60px;
+        border-radius: 30px;
+        outline: none;
+        
+        
+    }
+    button:hover{
+        
+        background-color:inherit;
+        color:$Verylightgraybackgroundheadingsbuttons;
+        outline: none;
+        cursor: pointer;
+    }
+}
+#third{
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    background-color: $Verydarkcyan;
+    button{
+        
+        font-family: 'Lexend Deca', sans-serif;
+        padding: 10px 10px;
+        width: 60%;
+        background-color:$Verylightgraybackgroundheadingsbuttons;
+        border: 2px solid $Verylightgraybackgroundheadingsbuttons ;
+        color:$Verydarkcyan;
+        margin-top:60px;
+        border-radius: 30px;
+        outline: none;
+        
+    }
+    button:hover{
+        background-color:inherit;
+        color:$Verylightgraybackgroundheadingsbuttons;
+        outline: none;
+        cursor: pointer;
+    }
+    @media(max-width: 720px) {
+        border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 0px;
+       }
+}
+p{
+    color:$Transparentwhiteparagraphs;
+    display: block;
+    text-align: left;
+    margin-top: 40px;
+    margin-right:40px ;
+}
+.attribution{display: flex;
+    position: relative;
+    bottom:0px;
+    padding: 40px 40px;
+    align-items: flex-start;
+    justify-items: center;
+}
